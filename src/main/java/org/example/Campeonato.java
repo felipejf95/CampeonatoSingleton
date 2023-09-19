@@ -10,7 +10,7 @@ public class Campeonato {
 
 
     private Campeonato() {};
-    private static final Campeonato instance = new Campeonato();
+    private static  Campeonato instance = new Campeonato();
     public static  Campeonato getInstance() {
         return instance;
     }

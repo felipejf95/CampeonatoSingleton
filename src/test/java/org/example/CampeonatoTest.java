@@ -17,4 +17,10 @@ class CampeonatoTest {
         Campeonato.getInstance().addEquipe(2);
         assertEquals(2, Campeonato.getInstance().getTotalEquipes());
     }
+
+    @Test
+    public void deveRetornarNenhumaEquipe() {
+        assertEquals(0, Campeonato.getInstance().getTotalEquipes());
+    }
+
 }
